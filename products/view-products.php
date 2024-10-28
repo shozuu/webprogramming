@@ -1,3 +1,7 @@
+<?php
+require_once '../account/auth.php';
+?>
+
 <div class="container-fluid">
     <div class="row">
         <div class="col-12">
@@ -14,7 +18,7 @@
                     <div class="d-flex justify-content-between align-items-center mb-4">
                         <?php
                             require_once '../classes/product.class.php';
-                            session_start();
+                            // session_start();
                             $productObj = new Product();
                         ?>
                         <div class="d-flex justify-content-center align-items-center">
